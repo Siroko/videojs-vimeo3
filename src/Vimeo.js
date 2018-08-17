@@ -73,7 +73,7 @@
             this.iframe.setAttribute('id', this.options_.techId);
             this.iframe.setAttribute('title', 'Vimeo Video Player');
             this.iframe.setAttribute('class', 'vimeoplayer');
-            this.iframe.setAttribute('src', this.baseUrl + this.videoId + '?background' + this.options_.background + '&autoplay=' + this.options_.autoplay +'&api=1&player_id=' + this.options_.techId + '&loop=' + (this.options_.loop ? '1' : '0'));
+            this.iframe.setAttribute('src', this.baseUrl + this.videoId + '?background=' + this.options_.background + '&autoplay=' + this.options_.autoplay +'&api=1&player_id=' + this.options_.techId + '&loop=' + (this.options_.loop ? '1' : '0'));
             this.iframe.setAttribute('frameborder', '0');
             this.iframe.setAttribute('scrolling', 'no');
             this.iframe.setAttribute('marginWidth', '0');
