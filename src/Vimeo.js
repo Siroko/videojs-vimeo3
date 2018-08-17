@@ -15,7 +15,7 @@
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE. */
-(function (root, factory) {
+ (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         define(['video.js'], function (videojs) {
             return (root.Vimeo = factory(videojs));
@@ -83,7 +83,7 @@
             this.iframe.setAttribute('allowFullScreen', '0');
 
             var divWrapper = document.createElement('div');
-            divWrapper.setAttribute('style', 'margin:0 auto;padding-bottom:56.25%;width:100%;height:0;position:relative;overflow:hidden;');
+            divWrapper.setAttribute('style', 'margin:0 auto;width:100%;height:0;position:absolute:top:0;overflow:hidden;');
             divWrapper.setAttribute('class', 'vimeoFrame');
             divWrapper.appendChild(this.iframe);
 
