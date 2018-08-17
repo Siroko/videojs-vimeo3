@@ -1,0 +1,53 @@
+{
+  "_from": "videojs-vimeo2",
+  "_id": "videojs-vimeo2@2.0.6",
+  "_inBundle": false,
+  "_integrity": "sha1-0oBPjbEbijAIhycW0n1rT3sFvZQ=",
+  "_location": "/videojs-vimeo2",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "videojs-vimeo2",
+    "name": "videojs-vimeo2",
+    "escapedName": "videojs-vimeo2",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/videojs-vimeo2/-/videojs-vimeo2-2.0.6.tgz",
+  "_shasum": "d2804f8db11b8a3008872716d27d6b4f7b05bd94",
+  "_spec": "videojs-vimeo2",
+  "_where": "/mnt/c/Users/sirok/Documents/projects/BLTD0140_WWF",
+  "author": {
+    "name": "Benoit Tremblay",
+    "email": "trembl.ben@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/eXon/videojs-vimeo/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Allows you to use Vimeo URL as source with Video.js.",
+  "homepage": "https://github.com/eXon/videojs-vimeo#readme",
+  "keywords": [
+    "video.js",
+    "vimeo",
+    "plugin"
+  ],
+  "license": "MIT",
+  "main": "src/Vimeo.js",
+  "name": "videojs-vimeo2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eXon/videojs-vimeo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.6"
+}
